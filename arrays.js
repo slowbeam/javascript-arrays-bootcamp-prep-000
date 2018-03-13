@@ -33,6 +33,7 @@ var chocolateBars = [
     return array;
   }
   
-  function removeElementFromBeginningOfArray(chocolateBars) {
-    
+  function removeElementFromBeginningOfArray(array) {
+    array.slice(1)
+    return array;
   }
