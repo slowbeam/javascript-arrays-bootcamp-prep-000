@@ -25,5 +25,5 @@ var chocolateBars = [
   }
   
   function accessElementInArray(chocolateBars, index) {
-    return chocolateBars[(index)]
+    return chocolateBars[index];
   }
