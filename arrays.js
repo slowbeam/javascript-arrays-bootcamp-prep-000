@@ -23,3 +23,7 @@ var chocolateBars = [
     chocolateBars.push(string)
     return chocolateBars
   }
+  
+  function accessElementInArray(chocolateBars, index) {
+    return chocolateBars[(index)]
+  }
